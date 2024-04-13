@@ -5,6 +5,8 @@ namespace WindowsFormsApp1
 {
     public partial class Form1 : Form
     {
+        CheckBox miCheckbox;
+
         public Form1()
         {
             InitializeComponent();
@@ -13,6 +15,13 @@ namespace WindowsFormsApp1
 
         private void Form1_Load(object sender, EventArgs e)
         {
+            miCheckbox = new CheckBox();
+            miCheckbox.Location = new System.Drawing.Point(50, 50);
+            miCheckbox.Name = "miCheckbox";
+            miCheckbox.Size = new System.Drawing.Size(100, 20);
+            miCheckbox.Text = "Mi Checkbox";
+            this.Controls.Add(miCheckbox);
+
             MessageBox.Show("¡Hola, mundo!");
         }
     }
