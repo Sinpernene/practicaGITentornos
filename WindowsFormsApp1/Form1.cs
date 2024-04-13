@@ -23,6 +23,7 @@ namespace WindowsFormsApp1
             this.Controls.Add(miCheckbox);
 
             MessageBox.Show("¡Hola, mundo!");
+            MessageBox.Show("Soy Sebastian, Buenos dias!");
         }
     }
 }
