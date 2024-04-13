@@ -24,6 +24,14 @@ namespace WindowsFormsApp1
 
             MessageBox.Show("¡Hola, mundo!");
             MessageBox.Show("Soy Sebastian, Buenos dias!");
+            MessageBox.Show("Sebastian estuvo aquí.");
+            MessageBox.Show("Luis estuvo aquí");
+
+        }
+
+        private void Form1_Load_1(object sender, EventArgs e)
+        {
+
         }
     }
 }
